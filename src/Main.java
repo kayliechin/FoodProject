@@ -83,7 +83,9 @@ public class Main {
                     id = scanner.nextInt();
                     int index = controller.searchItem(id);
                     item = chooseItem();
-                    controller.editItem(index, item);
+                    if(item != null) {
+                        controller.editItem(index, item);
+                    }
                     break;
                 case 7:
                     System.out.println("Write id of the product");
