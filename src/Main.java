@@ -95,6 +95,7 @@ public class Main {
                     break;
                 default:
                     System.out.println("Exit from the program");
+                    System.out.println("Thanks!-Kaylie");
                     return;
             }
         }
